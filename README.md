@@ -26,7 +26,7 @@ flask --app flask_app run
 
 1. push the changes
 2. log on the server and pull (with my user)
-3. `doas rcctl reload leequotesd`
+3. `doas rcctl restart leequotesd`
 
 
 ### How to update the website on python anywhere (legacy)
