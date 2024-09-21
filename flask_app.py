@@ -45,6 +45,7 @@ def hello_world():
             }}
             
             #footer {{
+                width: 90%;
                 position: absolute;
                 bottom: 0%;
                 left: 50%;
@@ -52,9 +53,21 @@ def hello_world():
                 text-align: center;
                 font-size: 12px;
             }}
+            
+            #instructions {{
+                font-size: calc(8px + 1vmin);
+                color: #c2c2c2;
+                margin-top: 24px;
+                width: 90%;
+                position: absolute;
+                top: 0%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }}
         </style>
     </head>
     <body>
+        <div id="instructions">Refresh the page with ⌘-R or Ctrl-R to load another Bruce Lee quote</div>
         <div id="quote">
             {quote}
         </div>
