@@ -1,15 +1,8 @@
 # leequotes-web-demo
 
-A simple website showcasing the leequotes lib
+Simple website showcasing the [leequotes](https://pypi.org/project/leequotes/) python library.
 
-Live demo available at http://lxnd.pythonanywhere.com/
-
-## How to update the website (for maintainers)
-
-1. got to python anywhere dashboard : https://www.pythonanywhere.com/user/lxnd/
-2. open the web tab
-3. open a console in the directory of the source code and run `git pull`
-4. in the web tab, press "reload"
+A live demo available at https://leequotes.petitapetit.io/
 
 ## How to install
 
@@ -26,3 +19,19 @@ then
 ```
 flask --app flask_app run
 ```
+
+## Notes to myself
+
+## How to update the website on petitapetit.io
+
+1. got to python anywhere dashboard : https://www.pythonanywhere.com/user/lxnd/
+2. open the web tab
+3. open a console in the directory of the source code and run `git pull`
+4. in the web tab, press "reload"
+
+### How to update the website on python anywhere (legacy)
+
+1. got to python anywhere dashboard : https://www.pythonanywhere.com/user/lxnd/
+2. open the web tab
+3. open a console in the directory of the source code and run `git pull`
+4. in the web tab, press "reload"
