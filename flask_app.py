@@ -27,29 +27,24 @@ def hello_world():
             body {{
                 background-color: #F7F7F7; /* Wheat color for a paper-like background */
                 color: #333; /* Dark gray color for text which is easier on the eyes */
+                
                 display: flex;
                 align-items: center;
-                justify-content: center;
-                padding: 20px;
+                justify-content: space-between;
+                flex-direction: column;
+                padding: 24px;
                 text-align: center;
+                height: calc(100vh - 48px);
             }}
 
     
             #quote {{
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
                 text-align: center;
                 font-size: calc(16px + 2vmin);
+                max-width: 650px;
             }}
             
             #footer {{
-                width: 90%;
-                position: absolute;
-                bottom: 0%;
-                left: 50%;
-                transform: translate(-50%, -50%);
                 text-align: center;
                 font-size: 12px;
             }}
@@ -57,17 +52,13 @@ def hello_world():
             #instructions {{
                 font-size: calc(8px + 1vmin);
                 color: #c2c2c2;
-                margin-top: 24px;
-                width: 90%;
-                position: absolute;
-                top: 0%;
-                left: 50%;
-                transform: translate(-50%, -50%);
             }}
         </style>
     </head>
     <body>
-        <div id="instructions">Refresh the page with ⌘-R or Ctrl-R to load another Bruce Lee quote</div>
+        <div id="instructions">
+            Refresh the page with ⌘-R or Ctrl-R to load another Bruce Lee quote
+        </div>
         <div id="quote">
             {quote}
         </div>
