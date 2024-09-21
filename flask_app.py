@@ -25,7 +25,7 @@ def hello_world():
             }}
             
             body {{
-                background-color: #EBEBEB; /* Wheat color for a paper-like background */
+                background-color: #F7F7F7; /* Wheat color for a paper-like background */
                 color: #333; /* Dark gray color for text which is easier on the eyes */
                 display: flex;
                 align-items: center;
