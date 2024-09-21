@@ -35,7 +35,7 @@ def hello_world():
             }}
 
     
-            .centered-quote {{
+            #quote {{
                 position: absolute;
                 top: 50%;
                 left: 50%;
@@ -43,11 +43,26 @@ def hello_world():
                 text-align: center;
                 font-size: calc(16px + 2vmin);
             }}
+            
+            #footer {{
+                position: absolute;
+                bottom: 0%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                font-size: 12px;
+            }}
         </style>
     </head>
     <body>
-        <div class="centered-quote">
+        <div id="quote">
             {quote}
+        </div>
+        <div id="footer">
+            <p>
+            This is a simple demo of the <a href="https://pypi.org/project/leequotes/">leequotes</a> python package. 
+            <p>
+            Made with ❤️ by <a href="petitapetit.io">alexandre petit</a>    
         </div>
     </body>
     </html>
